@@ -1,0 +1,13 @@
+# Requirements for Few-Shot Devanagari Conjunct Recognition Project
+
+# TensorFlow (must be a recent stable version for Keras 3 compatibility and features like tf.function)
+tensorflow>=2.16.1
+
+# Keras (often included with modern TensorFlow installations, but good practice to include if using specific Keras components)
+keras>=3.0.0
+
+# NumPy (for handling numerical operations, particularly image arrays)
+numpy>=1.26.0
+
+# Pillow (PIL Fork - used by tensorflow.keras.preprocessing.image utilities like load_img and save_img)
+Pillow>=10.2.0 
