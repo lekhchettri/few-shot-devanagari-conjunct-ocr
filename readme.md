@@ -20,7 +20,7 @@ The system utilizes a **Prototypical Network** architecture, a metric-based appr
 
 | Setting | Accuracy | Interpretation |
 | :--- | :--- | :--- |
-| **3-Shot (K=3)** | $\approx \mathbf{77.58\%}$ | High generalization using only 3 support samples per character. |
+| **5-Shot (K=5)** | $\approx \mathbf{77.58\%}$ | High generalization using only 5 support samples per character. |
 | **1-Shot (K=1)** | $\approx \mathbf{63.57\%}$ | Strong performance from a single example, demonstrating robust metric learning. |
 
 ---
